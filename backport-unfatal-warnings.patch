@@ -1,0 +1,11 @@
+--- gi-docgen-2021.8/gidocgen/gidocmain.py~	2021-10-21 12:02:00.000000000 +0000
++++ gi-docgen-2021.8/gidocgen/gidocmain.py	2022-03-21 20:11:32.459109654 +0000
+@@ -98,7 +98,7 @@
+ 
+         # Add shared commands
+         p.add_argument("-q", "--quiet", action="store_true", help="suppress messages except warnings")
+-        p.add_argument("--fatal-warnings", action="store_true", help="whether warnings are fatal")
++        p.add_argument("--fatal-warnings", action="store_false", help="whether warnings are fatal")
+ 
+         if add_args_func:
+             add_args_func(p)
