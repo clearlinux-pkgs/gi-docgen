@@ -4,7 +4,7 @@
 #
 Name     : gi-docgen
 Version  : 2021.8
-Release  : 1
+Release  : 2
 URL      : https://gitlab.gnome.org/GNOME/gi-docgen/-/archive/2021.8/gi-docgen-2021.8.tar.gz
 Source0  : https://gitlab.gnome.org/GNOME/gi-docgen/-/archive/2021.8/gi-docgen-2021.8.tar.gz
 Summary  : Documentation tool for GObject-based libraries
@@ -15,6 +15,7 @@ Requires: gi-docgen-license = %{version}-%{release}
 Requires: gi-docgen-man = %{version}-%{release}
 Requires: gi-docgen-python = %{version}-%{release}
 Requires: gi-docgen-python3 = %{version}-%{release}
+Requires: graphviz-extras
 BuildRequires : buildreq-distutils3
 BuildRequires : buildreq-gnome
 BuildRequires : buildreq-meson
@@ -104,7 +105,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1647819300
+export SOURCE_DATE_EPOCH=1647881127
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
