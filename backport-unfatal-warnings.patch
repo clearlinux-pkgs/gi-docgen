@@ -1,6 +1,8 @@
---- gi-docgen-2021.8/gidocgen/gidocmain.py~	2021-10-21 12:02:00.000000000 +0000
-+++ gi-docgen-2021.8/gidocgen/gidocmain.py	2022-03-21 20:11:32.459109654 +0000
-@@ -98,7 +98,7 @@
+diff --git a/gidocgen/gidocmain.py b/gidocgen/gidocmain.py
+index a3c97f2..ba516f0 100644
+--- a/gidocgen/gidocmain.py
++++ b/gidocgen/gidocmain.py
+@@ -98,7 +98,7 @@ class GIDocGenApp:
  
          # Add shared commands
          p.add_argument("-q", "--quiet", action="store_true", help="suppress messages except warnings")
