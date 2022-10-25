@@ -4,7 +4,7 @@
 #
 Name     : gi-docgen
 Version  : 2022.1
-Release  : 4
+Release  : 5
 URL      : https://gitlab.gnome.org/GNOME/gi-docgen/-/archive/2022.1/gi-docgen-2022.1.tar.gz
 Source0  : https://gitlab.gnome.org/GNOME/gi-docgen/-/archive/2022.1/gi-docgen-2022.1.tar.gz
 Summary  : Documentation tool for GObject-based libraries
