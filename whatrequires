@@ -1,4 +1,12 @@
 # This file contains recursive sources that require this package
+compat-gcr-soname1
+evince
+fwupd
+gcr
 gdk-pixbuf
-libgweather4
-librsvg
+gtk4
+gtksourceview
+libgweather
+pango
+webkitgtk
+webkitgtk50
