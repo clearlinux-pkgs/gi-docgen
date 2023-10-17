@@ -7,6 +7,8 @@ gdk-pixbuf
 gtk4
 gtksourceview
 libgweather
+libpanel
+libproxy
 pango
 webkitgtk
-webkitgtk50
+webkitgtk60
